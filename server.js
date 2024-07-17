@@ -88,7 +88,7 @@ bot.command("start", async (ctx) => {
 		const menus = new InlineKeyboard()
 			.webApp(
 				"Play in 1 click",
-				`https://fatso-fe.vercel.app/?user=${encodeURIComponent(
+				`https://ling-telegram-frontend.vercel.app/?user=${encodeURIComponent(
 					userid
 				)}`
 			);
@@ -110,7 +110,7 @@ bot.on("callback_query:data", async (ctx) => {
 		case "howToEarn":
 			const menus = new InlineKeyboard().webApp(
 				"Play in 1 click",
-				`https://fatso-fe.vercel.app/?user=${encodeURIComponent(
+				`https://ling-telegram-frontend.vercel.app/?user=${encodeURIComponent(
 					userid
 				)}`
 			)
