@@ -97,7 +97,7 @@ bot.command("start", async (ctx) => {
 			{
 				reply_markup: menus,
 				parse_mode: "HTML",
-				caption: `Hello, @${userid}! Welcome to Fatso Family.`,
+				caption: `Hello, @${userid}! Welcome to Ling Family.`,
 			}
 		);
 	})
